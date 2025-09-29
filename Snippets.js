@@ -1,5 +1,3 @@
-// <!--GAMFC-->version base on commit 58686d5d125194d34a1137913b3a64ddcf55872f, time is 2024-11-27 09:26:01 UTC<!--GAMFC-END-->.
-// @ts-ignore
 import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
@@ -9,7 +7,7 @@ let userID = '02ea78b1-528f-495a-bea5-9daf26e0efa6';
 let proxyIP = ''; // 填入你的proxyIP
 
 // 新增 - 预设优选域名列表
-const preferredDomains = ['visa.com.hk', 'ip.sb', 'icook.tw', 'cf.877774.xyz', 'skk.moe'];
+const preferredDomains = ['visa.com.hk', 'ip.sb', 'icook.tw', 'cf.877771.xyz', 'skk.moe', 'cdn.tzpro.xyz', 'bestcf.top'];
 
 // 解析 proxyIP 为 host 和 port（初始默认值）
 let proxyConfig = { proxyHost: '', proxyPort: null };
