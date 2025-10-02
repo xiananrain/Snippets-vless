@@ -5,7 +5,7 @@ let userID = '02ea78b1-528f-495a-bea5-9daf26e0efa6';
 let proxyIP = 'proxyip.cmliussss.net'; // 填入你的proxyIP
 
 // 新增 - 预设优选域名列表
-const preferredDomains = ['162.159.152.2','104.16.146.23''visa.com.hk', 'ip.sb', 'icook.tw', 'cf.877771.xyz', 'skk.moe', 'cdn.tzpro.xyz', 'bestcf.top', 'cf.090227.xyz', 'cf.zhetengsha.eu.org'];
+const preferredDomains = ['162.159.152.2','104.16.146.23','visa.com.hk', 'ip.sb', 'icook.tw', 'cf.877771.xyz', 'skk.moe', 'cdn.tzpro.xyz', 'bestcf.top', 'cf.090227.xyz', 'cf.zhetengsha.eu.org'];
 
 // 解析 proxyIP 为 host 和 port（初始默认值）
 let proxyConfig = { proxyHost: '', proxyPort: null };
